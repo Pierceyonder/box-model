@@ -1,0 +1,10 @@
+h1 {
+	background-color: red;
+	/* Start at top and go clockwise: top, right, bottom, left */;
+	padding: 1em 2em 3em 0.5em;
+	margin: 0 1em; /*top/bottom left/right */
+}
+
+a {
+	background-color: yellow;
+}
