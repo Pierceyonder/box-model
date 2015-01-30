@@ -1,10 +1,47 @@
+body {
+	margin: 0;
+}
+
+/*
+	Incline: allow other elements beside on the same line
+		Padding, margin, width don't work as expected
+	Block: Take up one whole line in the browser window
+		Padding, margin, width work as expected;
+	Inline-block: allow other elements beside on the same line
+		Padding, margin, width work as expected (like block);
+*/
+
 h1 {
 	background-color: red;
 	/* Start at top and go clockwise: top, right, bottom, left */;
 	padding: 1em 2em 3em 0.5em;
 	margin: 0 1em; /*top/bottom left/right */
+	border: 5px dotted #000;
+	border-radius: 10px;
+	display: inline-block;
 }
 
 a {
 	background-color: yellow;
+	display: block;
+}
+
+nav {
+	background-color: hotpink;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	display:inline-block;
+	padding: 0.5em 0>75em;
+	background-color: magenta;
 }
